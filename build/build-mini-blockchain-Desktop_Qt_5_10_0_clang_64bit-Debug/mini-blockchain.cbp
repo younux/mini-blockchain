@@ -91,6 +91,9 @@
 		<Unit filename="/Users/younes/Projects/mini-blockchain/src/main.cpp">
 			<Option target="mini-blockchain"/>
 		</Unit>
+		<Unit filename="/Users/younes/Projects/mini-blockchain/src/sha256.cpp">
+			<Option target="mini-blockchain"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/mini-blockchain/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

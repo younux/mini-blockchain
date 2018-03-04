@@ -24,9 +24,17 @@ vector
 block.hpp
 -
 
+../.././include/sha256.hpp
+string
+-
+
 /Users/younes/Projects/mini-blockchain/src/block.cpp
 block.hpp
 /Users/younes/Projects/mini-blockchain/src/block.hpp
+sha256.hpp
+/Users/younes/Projects/mini-blockchain/src/sha256.hpp
+sstream
+-
 
 /Users/younes/Projects/mini-blockchain/src/blockchain.cpp
 blockchain.hpp
@@ -35,4 +43,14 @@ blockchain.hpp
 /Users/younes/Projects/mini-blockchain/src/main.cpp
 iostream
 -
+blockchain.hpp
+/Users/younes/Projects/mini-blockchain/src/blockchain.hpp
+
+/Users/younes/Projects/mini-blockchain/src/sha256.cpp
+cstring
+-
+fstream
+-
+sha256.hpp
+/Users/younes/Projects/mini-blockchain/src/sha256.hpp
 
