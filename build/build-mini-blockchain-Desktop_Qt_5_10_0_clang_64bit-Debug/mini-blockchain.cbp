@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/younes/Projects/mini-blockchain/src/block.cpp">
+			<Option target="mini-blockchain"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/mini-blockchain/src/blockchain.cpp">
+			<Option target="mini-blockchain"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/mini-blockchain/src/main.cpp">
 			<Option target="mini-blockchain"/>
 		</Unit>

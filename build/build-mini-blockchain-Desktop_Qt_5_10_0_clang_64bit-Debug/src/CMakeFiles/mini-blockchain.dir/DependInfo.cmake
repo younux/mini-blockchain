@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/younes/Projects/mini-blockchain/src/block.cpp" "/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src/CMakeFiles/mini-blockchain.dir/block.cpp.o"
+  "/Users/younes/Projects/mini-blockchain/src/blockchain.cpp" "/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o"
   "/Users/younes/Projects/mini-blockchain/src/main.cpp" "/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src/CMakeFiles/mini-blockchain.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

@@ -81,17 +81,69 @@ src/CMakeFiles/mini-blockchain.dir/main.cpp.o.provides: src/CMakeFiles/mini-bloc
 src/CMakeFiles/mini-blockchain.dir/main.cpp.o.provides.build: src/CMakeFiles/mini-blockchain.dir/main.cpp.o
 
 
+src/CMakeFiles/mini-blockchain.dir/block.cpp.o: src/CMakeFiles/mini-blockchain.dir/flags.make
+src/CMakeFiles/mini-blockchain.dir/block.cpp.o: ../../src/block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mini-blockchain.dir/block.cpp.o"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mini-blockchain.dir/block.cpp.o -c /Users/younes/Projects/mini-blockchain/src/block.cpp
+
+src/CMakeFiles/mini-blockchain.dir/block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini-blockchain.dir/block.cpp.i"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/mini-blockchain/src/block.cpp > CMakeFiles/mini-blockchain.dir/block.cpp.i
+
+src/CMakeFiles/mini-blockchain.dir/block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini-blockchain.dir/block.cpp.s"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/mini-blockchain/src/block.cpp -o CMakeFiles/mini-blockchain.dir/block.cpp.s
+
+src/CMakeFiles/mini-blockchain.dir/block.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mini-blockchain.dir/block.cpp.o.requires
+
+src/CMakeFiles/mini-blockchain.dir/block.cpp.o.provides: src/CMakeFiles/mini-blockchain.dir/block.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mini-blockchain.dir/build.make src/CMakeFiles/mini-blockchain.dir/block.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mini-blockchain.dir/block.cpp.o.provides
+
+src/CMakeFiles/mini-blockchain.dir/block.cpp.o.provides.build: src/CMakeFiles/mini-blockchain.dir/block.cpp.o
+
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o: src/CMakeFiles/mini-blockchain.dir/flags.make
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o: ../../src/blockchain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mini-blockchain.dir/blockchain.cpp.o -c /Users/younes/Projects/mini-blockchain/src/blockchain.cpp
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini-blockchain.dir/blockchain.cpp.i"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/mini-blockchain/src/blockchain.cpp > CMakeFiles/mini-blockchain.dir/blockchain.cpp.i
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini-blockchain.dir/blockchain.cpp.s"
+	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/mini-blockchain/src/blockchain.cpp -o CMakeFiles/mini-blockchain.dir/blockchain.cpp.s
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.requires
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.provides: src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mini-blockchain.dir/build.make src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.provides
+
+src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.provides.build: src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o
+
+
 # Object files for target mini-blockchain
 mini__blockchain_OBJECTS = \
-"CMakeFiles/mini-blockchain.dir/main.cpp.o"
+"CMakeFiles/mini-blockchain.dir/main.cpp.o" \
+"CMakeFiles/mini-blockchain.dir/block.cpp.o" \
+"CMakeFiles/mini-blockchain.dir/blockchain.cpp.o"
 
 # External object files for target mini-blockchain
 mini__blockchain_EXTERNAL_OBJECTS =
 
 src/mini-blockchain: src/CMakeFiles/mini-blockchain.dir/main.cpp.o
+src/mini-blockchain: src/CMakeFiles/mini-blockchain.dir/block.cpp.o
+src/mini-blockchain: src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o
 src/mini-blockchain: src/CMakeFiles/mini-blockchain.dir/build.make
 src/mini-blockchain: src/CMakeFiles/mini-blockchain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mini-blockchain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable mini-blockchain"
 	cd /Users/younes/Projects/mini-blockchain/build/build-mini-blockchain-Desktop_Qt_5_10_0_clang_64bit-Debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mini-blockchain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ src/CMakeFiles/mini-blockchain.dir/build: src/mini-blockchain
 .PHONY : src/CMakeFiles/mini-blockchain.dir/build
 
 src/CMakeFiles/mini-blockchain.dir/requires: src/CMakeFiles/mini-blockchain.dir/main.cpp.o.requires
+src/CMakeFiles/mini-blockchain.dir/requires: src/CMakeFiles/mini-blockchain.dir/block.cpp.o.requires
+src/CMakeFiles/mini-blockchain.dir/requires: src/CMakeFiles/mini-blockchain.dir/blockchain.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mini-blockchain.dir/requires
 
