@@ -5,8 +5,11 @@ using namespace std;
 
 int main()
 {
-    uint32_t difficulty = 1;
+    uint32_t difficulty = 6;
+
     Blockchain blockchain = Blockchain(difficulty);
+
+    cout << "Blockchain created with difficulty : "<< difficulty << endl;
 
     cout << "Mining block 1 ...." << endl;
     blockchain.AddBlock(Block(1, "Block 1 data"));

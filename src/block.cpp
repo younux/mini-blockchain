@@ -16,7 +16,7 @@ std::string Block::GetHash(){
 void Block::MineBlock(uint32_t difficulty){
     char cstr[difficulty+1];
     for(int i = 0; i<difficulty; i++){
-        cstr[i] = 0;
+        cstr[i] = '0';
     }
     cstr[difficulty] = '\0';
 

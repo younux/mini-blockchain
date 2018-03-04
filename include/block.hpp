@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <iostream>
 #include <string.h>
-#include <time.h>
+#include <ctime>
 
 class Block{
 public :
