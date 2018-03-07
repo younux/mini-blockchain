@@ -11,7 +11,10 @@ class Blockchain{
 public:
     Blockchain(uint32_t difficulty);
 
-    void AddBlock(Block newBlock);
+    void NewBlock(Block newBlock);
+
+    uint32_t GetDifficulty() const;
+    std::vector<Block> GetChain() const;
 
 private:
     uint32_t _difficulty;
