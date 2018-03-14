@@ -4,12 +4,14 @@
 
 Block::Block(){
     this->_nonce = -1;
+    this->_index = -1;
     this->_time = time(nullptr);
 }
 
 Block::Block(const std::vector<Transaction> transacions): _transactions(transacions)
 {
     this->_nonce = -1;
+    this->_index = -1;
     this->_time = time(nullptr);
 }
 
