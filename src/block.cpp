@@ -7,7 +7,7 @@ Block::Block(){
     this->_time = time(nullptr);
 }
 
-Block::Block(const std::vector<Transaction> &transacions): _transactions(transacions)
+Block::Block(const std::vector<Transaction> transacions): _transactions(transacions)
 {
     this->_nonce = -1;
     this->_time = time(nullptr);
@@ -19,7 +19,7 @@ Block::Block(uint32_t index): _index(index)
     this->_time = time(nullptr);
 }
 
-Block::Block(uint32_t index, const std::vector<Transaction> &transacions): _index(index), _transactions(transacions)
+Block::Block(uint32_t index, const std::vector<Transaction> transacions): _index(index), _transactions(transacions)
 {
     this->_nonce = -1;
     this->_time = time(nullptr);

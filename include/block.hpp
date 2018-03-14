@@ -15,9 +15,9 @@ public :
 
 
     Block();
-    Block(const std::vector<Transaction> &transacions);
+    Block(const std::vector<Transaction> transacions);
     Block(uint32_t index);
-    Block(uint32_t index, const std::vector<Transaction> &transacions);
+    Block(uint32_t index, const std::vector<Transaction> transacions);
 
     void NewTransaction(std::string sender, std::string recipient, float amount);
     void MineBlock(uint32_t difficulty);
